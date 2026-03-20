@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message": "Hello World"}
+    return {"message": "Hello World 2"}
 
 @app.get("/add/{a}/{b}")
 def add(a: int, b: int):
